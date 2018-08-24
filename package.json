@@ -1,0 +1,22 @@
+{
+  "name": "interview",
+  "version": "0.0.1",
+  "description": "前端面试合集\r ---\r 因为马上要转正面试了，这几天都在准备面试，就把面试准备的东西都整理下来，以后需要的时候也方便看。",
+  "main": "algth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangfengyuan/interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangfengyuan/interview/issues"
+  },
+  "homepage": "https://github.com/wangfengyuan/interview#readme",
+  "dependencies": {
+    "co": "^4.6.0"
+  }
+}
