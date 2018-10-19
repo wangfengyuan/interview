@@ -1,9 +1,19 @@
+<!-- TOC -->
 
+- [1. 盒模型](#1)
+- [2. BFC](#2-bfc)
+- [3. 浏览器相关](#3)
+- [4. 说说你对语义化的理解](#4)
+- [5. 说说H5新增内容](#5-h5)
+- [6. 浏览器缓存机制](#6)
+- [7. Cookie、 LocalStorage 与 SessionStorage区别](#7-cookie-localstorage--sessionstorage)
+
+<!-- /TOC -->
 ### 1. 盒模型
 盒子模型主要有两种  
 w3c标准盒模型（声明了文档类型则以标准模式解析，H5声明方式是<!DOCTYPE html>，H4则需要设置DTD类型，包括严格和过渡)  
 IE下的怪异盒模型（如果doctype缺失，则在ie6、ie7、ie8将会触发怪异模式）
-![盒模型](.docs/盒模型.jpg)
+![盒模型](./docs/盒模型.jpg)
 还有用来改变盒模型width范围的一个css3的属性, box-sizing:
 设置为'border-box'时, width = border + padding + content;
 设置为'content-box'时, width = content。
